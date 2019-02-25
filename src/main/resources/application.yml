@@ -1,0 +1,7 @@
+#Neo4j配置
+#连接器：dbms.connector.bolt  协议:Bolt二进制协议
+spring:
+  neo4j:
+    username: neo4j
+    password: rstyro
+    url: bolt://localhost:7687
